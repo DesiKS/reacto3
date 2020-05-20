@@ -69,7 +69,7 @@ const finalResult = thirdReturn(4); // -9 -> (1 + 2 - 3 * 4)
 
 ---
 
-class: center middle
+
 ## Interviewer Guide
 
 ---
