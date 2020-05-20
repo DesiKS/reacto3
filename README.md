@@ -117,7 +117,7 @@ console.log(takesOne.length) // 1
 
 ### TO
 
-* When your interviewee finishes, make sure they check and that their curried functions are re-usable, and that they can handle more than one argument at a time
+* When your interviewee finishes, make sure they check that their curried functions are re-usable, and that they can handle more than one argument at a time
 
 ---
 
