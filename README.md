@@ -77,7 +77,7 @@ const finalResult = thirdReturn(4); // -9 -> (1 + 2 - 3 * 4)
 ### RE
 
 * A good question would be: "Can you only give a curried function one argument at a time?"
-  * For example, with `curriedDoSomething`, should we still be able to say: `curriedDoSomething(1, 2, 3, 4)` all at once? Respond with "yes" if this happens
+  * For example, with `curriedDoSomething`, should we still be able to say: `curriedDoSomething(1, 2, 3, 4)` all at once? Answer: yes!
 
 * Be aware that curried functions at any stage should be able to be re-used. That is, they should not be "one and done". For example:
 
