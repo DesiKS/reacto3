@@ -3,7 +3,7 @@ class: center middle
 
 ---
 
-## Interviewer Prompt (a)
+## Interviewer Prompt
 
 Currying is the process by which a function of N arguments is implemented as N single-argument functions such that first of them takes in the first argument and returns a function which takes in the 2nd argument and so on, until the Nth single-argument function finally returns the value of the multi-argument function being implemented.
 
@@ -11,12 +11,9 @@ Currying is the process by which a function of N arguments is implemented as N s
 
 Write a function called `curry` that takes a function as an argument, and returns a "curried" version of that function.
 
-Encourage interviewers to share the next prompts with interviewees to help them understand the concept.
+Interviewers should share the next examples with interviewees to help them understand the concept.
 
 ---
-
-## Interviewer Prompt (b)
-
 For example, consider the function:
 
 ```javascript
@@ -40,8 +37,6 @@ const add = x => y => x + y
 ```
 
 ---
-
-## Interviewer Prompt (c)
 
 Your task is to write a function called `curry` that can do this for us:
 
@@ -153,7 +148,7 @@ function curry (fn) {
 
 This won't cut it though! The function we return isn't re-usable because it closes over the same array!
 
-We could improve this approach and wrap the inner function in another function or an IIFE...but things get messy quickly...
+We could improve this approach and wrap the inner function in another function or an IIFE (immediately invoked function expression)...but things get messy quickly...
 
 ---
 
