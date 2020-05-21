@@ -292,3 +292,5 @@ const curry = fn =>
 * Find the number of arguments (or `arity`) of a function using `.length`
 
 * Use `.bind` to partially apply arguments to a function
+
+* Repl from Desi's walkthrough: https://repl.it/@shunturova/AcceptableRubberyWorkspace
