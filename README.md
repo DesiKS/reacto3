@@ -9,7 +9,7 @@ Currying is the process by which a function of N arguments is implemented as N s
 
 ### Your Task:
 
-Write a function called `curry` that takes a function as an argument, and returns a "curried" version of that function.
+Write a function called `curry` that takes a function as an argument and returns a "curried" version of that function.
 
 Interviewers should share the next examples with interviewees to help them understand the concept.
 
